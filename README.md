@@ -2,9 +2,20 @@
 Implementation of Principal Pivot Transforms (PPT), often referred to as exchange or sweep operator.
 Check out references section for explanations.
 
+## Install package locally
+- Get into your virtual environment
+`source path/to/venv/bin/activate`
+- setup ppt package
+`python3 setup.py bdist_wheel`
+- install package from created dist directory
+`pip install ./dist/PrincipalPivotTransform-0.1.0-py3-none-any.whl` (adjust Version number)
+- you should be able to import the project in your code
+`import ppt.ppt as ppt`
+
 ## Future work
 - Complete implementation of generalized PPT
 - Improve test case coverage
+- Fix import
 
 
 ## References
