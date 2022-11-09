@@ -8,7 +8,9 @@ Check out references section for explanations.
 - setup ppt package
 `python3 setup.py bdist_wheel`
 - install package from created dist directory
-`pip install ./dist/PrincipalPivotTransform-0.1.0-py3-none-any.whl` (adjust Version number)
+`pip install ./dist/PrincipalPivotTransform-0.1.0-py3-none-any.whl` (adjust Version number / path)
+if for some reason the import is not recognized correctly, it might help to force the python interpreter by running:
+`python3 -m pip install ./dist/PrincipalPivotTransform-0.1.0-py3-none-any.whl` (adjust Version number / path)
 - you should be able to import the project in your code
 `import ppt.ppt as ppt`
 
